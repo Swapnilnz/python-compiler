@@ -1,0 +1,9 @@
+read n;
+sum := 0;
+rand := n + 1;
+while n > 0 or rand > 0 do
+  sum := sum + n + rand;
+  n := n - 1 
+  rand := rand - 1
+end;
+write sum
